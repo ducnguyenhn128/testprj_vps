@@ -4,7 +4,7 @@ const App = () => {
   const [date, setDate] = useState({ month: '', day: '' });
 
   useEffect(() => {
-    fetch('http://192.168.88.112:5000/date')
+    fetch('http://222.255.238.160:5000/date')
       .then(response => response.json())
       .then(data => setDate({ month: data.month, day: data.day }))
       .catch(error => console.error('Error fetching date:', error));
