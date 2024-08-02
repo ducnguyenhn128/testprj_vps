@@ -20,5 +20,5 @@ const App = () => {
 export default App;
 
 
-// This line to learn and test git - branch dev
+// This line to learn and test git - branch dev - and 2nd text
 
